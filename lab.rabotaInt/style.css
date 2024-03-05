@@ -1,0 +1,78 @@
+body {
+  background-color: #F5F5F5;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+#header {
+  background-color: #383377;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+h2.repository-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+p.vs-code-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  color: black;
+}
+
+.column {
+  background-color: #333333;
+  color: white;
+  padding: 15px;
+}
+
+#column1 {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+#column2 {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+#column2 span {
+  font-size: 25px;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.smiley, .rocket {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+}
+
+.smiley {
+  background-color: #383377;
+  left: 0;
+}
+
+.rocket {
+  background-color: #383377;
+  left: 80px;
+}
